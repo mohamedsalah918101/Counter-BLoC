@@ -24,6 +24,5 @@ A Flutter application demonstrating the use of Cubit for state management.
   - pages/
     - counter_page.dart
   - widgets/
-    - counter_value.dart
-    - counter_actions.dart
+    - counter_button.dart
   - main.dart
