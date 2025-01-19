@@ -1,16 +1,29 @@
-# counter_cubit
+# Counter BLoC
 
-A new Flutter project.
+A Flutter application demonstrating the use of Cubit for state management.
+
+## Features
+
+- Increment and decrement counter
+- Show dialogs at specific values (10 and -10)
+- Reset functionality
+- Clean architecture with separate widgets
+- Material 3 design
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Clone the repository
+2. Run `flutter pub get`
+3. Run the app using `flutter run`
 
-A few resources to get you started if this is your first Flutter project:
+## Project Structure
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- lib/
+  - cubits/
+    - counter_cubit.dart
+  - pages/
+    - counter_page.dart
+  - widgets/
+    - counter_value.dart
+    - counter_actions.dart
+  - main.dart
